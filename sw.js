@@ -11,8 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.5.0/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.5.0"});
+importScripts("workbox-v3.6.2/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.2"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,40 +26,40 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-5e89c22f0860d834b875.js"
+    "url": "webpack-runtime-43a3c3e4017d03d76894.js"
   },
   {
-    "url": "app-75b6ec5fe30633e088ba.js"
+    "url": "app-6a3d20002bab181585f0.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-8b39cf320710777c95f1.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-0691004cd9de246c1542.js"
   },
   {
     "url": "index.html",
-    "revision": "57586ba9c16dcc9cff23983ba4c760b8"
+    "revision": "f22ceb938ba10a765f0b750133382e40"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "69c428bc1ecdc9ef4b8e8226dd572b9d"
+    "revision": "e6175e2f10aa027127922e61435defd1"
   },
   {
-    "url": "component---src-pages-index-js.3e1fad87f8fd3a98e29d.css"
+    "url": "component---src-pages-index-js.78ff2790f8dfba360597.css"
   },
   {
-    "url": "component---src-pages-index-js-ae3d8eddb5c204f75b5a.js"
+    "url": "component---src-pages-index-js-382df575583bbe4321a0.js"
   },
   {
-    "url": "0-4293e42643895935a774.js"
+    "url": "0-549ad4c14caef0904eb3.js"
   },
   {
     "url": "static/d/565/path---index-6a9-58UocGAa8CgHH8BTQXS0qlifWU.json",
     "revision": "4314fe2acad51575d9cf6ee9a1af260a"
   },
   {
-    "url": "component---src-pages-404-js.3e1fad87f8fd3a98e29d.css"
+    "url": "component---src-pages-404-js.78ff2790f8dfba360597.css"
   },
   {
-    "url": "component---src-pages-404-js-a05da63b22a38221ba04.js"
+    "url": "component---src-pages-404-js-921550a6328c928206a1.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
